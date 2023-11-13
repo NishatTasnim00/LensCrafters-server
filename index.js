@@ -12,7 +12,6 @@ const stripe = require('stripe')(process.env.PAYMENT_SECRET_KEY);
 
 
 const  faqData = require("./data/faq.json")
-console.log(faqData)
 
 //middleware
 app.use(cors());
@@ -380,7 +379,7 @@ run().catch(console.dir);
 
 
 app.get('/faqs', (req, res) => {
-	res.json(faqData);
+	res.send(faqData);
   });
 
 app.get('/', (req, res) => {

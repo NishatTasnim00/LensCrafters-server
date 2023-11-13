@@ -1,5 +1,4 @@
-{
-    "faqs": [
+ [
       {
         "question": "What is the photography summer school?",
         "answer": "The photography summer school is an immersive program designed to provide participants with hands-on experience in photography. It covers various aspects of photography, including camera techniques, composition, editing, and more."
@@ -27,19 +26,7 @@
       {
         "question": "Is accommodation provided for participants?",
         "answer": "Accommodation is not included in the program fees. However, we can provide recommendations for nearby lodging options. Participants are responsible for arranging their own accommodations."
-      },
-      {
-        "question": "How can I apply for the photography summer school?",
-        "answer": "To apply, visit our website and fill out the online application form. Make sure to provide details about your photography background and why you're interested in joining the summer school. Applications are reviewed, and selected participants will be notified."
-      },
-      {
-        "question": "Is financial aid available?",
-        "answer": "Yes, we offer limited financial aid scholarships for eligible participants. Please indicate your interest in financial aid when submitting your application, and we will provide details on the application process."
-      },
-      {
-        "question": "Can I showcase my work at the end of the program?",
-        "answer": "Absolutely! The program concludes with a showcase where participants can exhibit their best works. It's a great opportunity to share your creativity with fellow participants, instructors, and the wider community."
       }
     ]
-  }
+
   
