@@ -3,10 +3,11 @@
 const cors = require('cors');
 const express = require('express');
 const jwt = require('jsonwebtoken');
+require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 5000;
 const app = express();
-require('dotenv').config();
+
 const stripe = require('stripe')(process.env.PAYMENT_SECRET_KEY);
 
 
@@ -379,6 +380,7 @@ run().catch(console.dir);
 
 
 app.get('/faqs', (req, res) => {
+	console.log(faqData)
 	res.send(faqData);
   });
 
