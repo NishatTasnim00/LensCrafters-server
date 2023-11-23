@@ -10,7 +10,8 @@ const app = express();
 
 const stripe = require('stripe')(process.env.PAYMENT_SECRET_KEY);
 const  faqData = require("./data/faq.json")
-
+const  tutorialsData = require("./data/tutorials.json")
+const  gallerData = require("./data/gallery.json")
 //middleware
 app.use(cors());
 app.use(express.json());
@@ -373,12 +374,17 @@ async function run() {
 run().catch(console.dir);
 
 
-
+app.get('/tutorials', (req, res) => {
+	console.log(tutorialsData)
+	res.send(tutorialsData);
+  });
 
 
 app.get('/faqs', (req, res) => {
-	console.log(faqData)
 	res.send(faqData);
+  });
+  app.get('/gallery', (req, res) => {
+	res.send(gallerData);
   });
 
 app.get('/', (req, res) => {
