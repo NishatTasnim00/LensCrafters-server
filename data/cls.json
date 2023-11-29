@@ -9,7 +9,8 @@
 		"availableSeats": 20,
 		"booked":0,
 		"fees": 150,
-		"status": "approved" 
+		"status": "approved"
+		 
 	},
 	{
 		"name": "Landscape Photography Masterclass",
